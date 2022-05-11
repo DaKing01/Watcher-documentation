@@ -1,0 +1,17 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:widgetbot-io/documentation.git",
+  "author": "Daave <daave@widgetbot.io>",
+  "scripts": {
+    "dev": "node node_modules/vuepress/cli.js dev",
+    "docs:dev": "node node_modules/vuepress/cli.js dev",
+    "docs:build": "node node_modules/vuepress/cli.js build"
+  },
+  "dependencies": {
+    "vuepress": "^1.4.0",
+    "vuepress-plugin-clean-urls": "^1.1.1",
+    "vuepress-plugin-nprogress": "^1.1.6"
+  }
+}
